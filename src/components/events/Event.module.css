@@ -1,0 +1,9 @@
+.calendar-wrapper-left {
+    grid-area: l;
+    background-color: red;
+}
+
+.calendar-wrapper-right {
+    grid-area: r;
+    background-color: red;
+}

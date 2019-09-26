@@ -1,0 +1,4 @@
+.calendar-header {
+    grid-area: h;
+    background-color: aqua;
+}
