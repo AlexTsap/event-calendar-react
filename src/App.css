@@ -1,13 +1,16 @@
 .container {
+  text-align: center;
+}
+
+.container h1 {
+  display: inline-block;
+}
+
+.content-wrapper {
   display: flex;
   height: 1200px;
   width: 700px;
   flex-direction: column;
   flex-wrap: wrap;
   border: 1px solid grey;
-}
-
-.content-wrapper {
-  grid-area: c;
-  background-color: aquamarine;
 }

@@ -27,7 +27,7 @@ class EventAM extends Component {
 
     render() {
         return (
-            <div className={style.calendarWrapperLeft}>
+            <div className={style.calendarColumn}>
                 <ul>
                     {this.state.events.map((event, index) => {
                       return (

@@ -1,9 +1,7 @@
-.calendar-wrapper-left {
-    grid-area: l;
-    background-color: red;
-}
-
-.calendar-wrapper-right {
-    grid-area: r;
-    background-color: red;
+.calendar-column {
+    width: 350px;
+    min-height: 40px;
+    margin: 0;
+    outline: 1px dotted black;
+    outline-offset: -1px;
 }
