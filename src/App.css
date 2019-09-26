@@ -4,11 +4,15 @@
 
 .container h1 {
   display: inline-block;
+  margin: auto;
+  padding: 20px 0;
 }
 
 .content-wrapper {
+  text-align: left;
+  margin: auto;
   display: flex;
-  height: 1200px;
+  height: 800px;
   width: 700px;
   flex-direction: column;
   flex-wrap: wrap;

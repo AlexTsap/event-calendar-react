@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import style from './Event.module.css';
 
-class EventAM extends Component {
+class Event extends Component {
     // Initialize the state
     constructor(props) {
         super(props);
@@ -28,16 +28,14 @@ class EventAM extends Component {
     render() {
         return (
             <div className={style.calendarColumn}>
-                <ul>
                     {this.state.events.map((event, index) => {
                       return (
-                          <li key={index}><p>{event.title}</p></li>
+                          <div key={index}><p>{event.title}</p></div>
                       )
                     })}
-                </ul>
             </div>
         );
     }
 }
 
-export default EventAM;
+export default Event;

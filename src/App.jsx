@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Calendar from './components/calendar/Calendar';
 import './App.css';
-import EventAM from "./components/events/EventAM";
+import Event from "./components/events/Event";
 
 const App = () => {
     return (
@@ -10,7 +10,7 @@ const App = () => {
             <div className="container">
                 <Calendar/>
                 <div className="content-wrapper">
-                    <EventAM />
+                    <Event />
                 </div>
             </div>
         </BrowserRouter>
